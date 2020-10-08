@@ -24,7 +24,7 @@ public class ViewServlet extends HttpServlet {
 		BasicSalaryDao basicSalary = new BasicSalaryDao();
 		int BS =  basicSalary.getBasicSalary();
 
-			return (BS*0.2*0.15)+(6-rank)*5000;
+			return BS+BS*0.2+BS*0.15+(6-rank)*5000;
 	}
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
