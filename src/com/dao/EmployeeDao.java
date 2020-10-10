@@ -114,7 +114,7 @@ public class EmployeeDao  {
                 e.setMobileNo(rs.getString(5));
                 e.setBankAccount(rs.getString(6));
             }
-            status = p.executeUpdate();
+
             connection.close();
         }catch(Exception ex) {
             ex.printStackTrace();

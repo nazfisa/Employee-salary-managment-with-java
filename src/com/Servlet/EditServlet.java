@@ -25,11 +25,11 @@ public class EditServlet extends HttpServlet {
 		out.println("<form action='UpdateServlet' method='POST'>");
 		out.println("<table>");
 		out.println("<tr><td></td><td><input type='hidden' name='id' value='"+u.getId()+"' /></td></tr>");
-		out.println("<tr><td>User Name : </td><td><input type='text' name='username' value='"+u.getName()+"' /></td></tr>");
-		out.println("<tr><td>Rank : </td><td><input type='text' name='email' value='"+u.getGrade()+"' /></td></tr>");
-		out.println("<tr><td>Address : </td><td><input type='text' name='fullname' value='"+u.getAddress()+"' /></td></tr>");
-		out.println("<tr><td>Mobile : </td><td><input type='text' name='password' value='"+u.getMobileNo()+"' /></td></tr>");
-		out.println("<tr><td>Bank Address : </td><td><input type='text' name='phone' value='"+u.getBankAccount()+"' /></td></tr>");
+		out.println("<tr><td>User Name : </td><td><input type='text' name='name' value='"+u.getName()+"' /></td></tr>");
+		out.println("<tr><td>Rank : </td><td><input type='text' name='grade' value='"+u.getGrade()+"' /></td></tr>");
+		out.println("<tr><td>Address : </td><td><input type='text' name='address' value='"+u.getAddress()+"' /></td></tr>");
+		out.println("<tr><td>Mobile : </td><td><input type='text' name='mobileNo' value='"+u.getMobileNo()+"' /></td></tr>");
+		out.println("<tr><td>Bank Address : </td><td><input type='text' name='bankAccount' value='"+u.getBankAccount()+"' /></td></tr>");
 		out.println("<tr><td colspan='2'><input type='submit'  value='Update' /></td></tr>");
 		out.println("</table>");
 		out.println("</form>");
