@@ -8,8 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fa47e926-17a5-4d5b-bda4-532626beafbe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Servlet/ViewServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Servlet/ViewServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dao/EmployeeDao.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ppm-full-stack/ppm" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -149,7 +147,8 @@
       <workItem from="1602128707173" duration="3550000" />
       <workItem from="1602137854125" duration="75000" />
       <workItem from="1602161814507" duration="22000" />
-      <workItem from="1602344375940" duration="1244000" />
+      <workItem from="1602344375940" duration="2054000" />
+      <workItem from="1602388099814" duration="17000" />
     </task>
     <servers />
   </component>
